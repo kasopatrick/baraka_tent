@@ -1,0 +1,7 @@
+#Mon May 08 10:25:32 EAT 2023
+base.0=/media/emobilis/BOOST/Trent/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.1=/media/emobilis/BOOST/Trent/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

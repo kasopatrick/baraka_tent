@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Advice">
+
+    <ImageView
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/avdimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/pyllis"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="53dp"/>
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/txtspecify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please specify your interest"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/spf_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requirements on how to start a dairy farm" />
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/spf_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problems facing dairy farming" />
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/spf_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qualities of a good dairy farmer" />
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/spf_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to succeed in dairy farming " />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adv_3">
+
+    <ImageView
+        android:layout_marginLeft="110dp"
+        android:id="@+id/img_ad_3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/fressian"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:layout_marginTop="4px"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/ad_3_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qualities of a good farmer"
+        android:gravity="center_horizontal" />
+</LinearLayout>
