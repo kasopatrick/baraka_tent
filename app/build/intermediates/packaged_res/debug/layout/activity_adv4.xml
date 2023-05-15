@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Adv_4">
+    tools:context=".Adv_4Activity">
 
     <ImageView
         android:layout_marginLeft="110dp"
@@ -18,6 +18,7 @@
         tools:layout_editor_absoluteY="25dp" />
 
     <TextView
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="20dp"
         android:id="@+id/txt_4_4"
@@ -26,4 +27,11 @@
         android:layout_weight="1"
         android:text="How to succeed in dairy farming"
         android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/succeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You will require around eight this to start a dairy farm.One, you should develop a bussiness plan and SWOT analysis in order to have a good start.Two, you should consult te experts before taking any step,this will ensure that you do not make any mistake here and there that can bring servere loss to the farm.Either you shuold create a cropping and feeding farm in order to have stable food supply to the dairy animals in case of any emergencies, this will ensure that the farmer has all the requirements concerning thr animal feeds.You shuold also create a waste management plan to ensure that the environment around the dairy is clean,this may be aslo advantegious to the farmer since he/she can use the dairy waste as manure in the fam which aslo promotes crop farming.Never the less, you should build eqiuty over time in order to ensure that dairy farming is running smoothly and more effficiently.However ,you should consider that dairy farming is a biological system and as we said earlier that for efficiencyy of supply of manure in cropping to ensure maximum production of food to dairy animals,lastly, you should considder yourself as the manager and figure uot what is needed and what is not needed at all,this will ensure that all the records of the farm are within you and tou can access it at any time and even make changes.For any other advice you need please contact the manager" />
+
 </LinearLayout>

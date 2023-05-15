@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/blueback"
-    tools:context=".Contact">
+    tools:context=".ContactActivity">
 
     <TextView
         android:id="@+id/mTitle"
@@ -24,26 +24,25 @@
         android:id="@+id/imgView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginBottom="76dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imagEmail"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mtxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/mTitle"
+        app:layout_constraintTop_toBottomOf="@+id/mTitle"
         app:srcCompat="@drawable/pyllis" />
 
     <TextView
         android:id="@+id/BTNemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
         android:text="kasopatrick5@gmail.com"
         android:textColor="#AC031D"
         android:textSize="20dp"
-        app:layout_constraintStart_toEndOf="@+id/imagEmail"
-        app:layout_constraintTop_toTopOf="@+id/imagEmail" />
+        app:layout_constraintBottom_toBottomOf="@+id/imagEmail"
+        app:layout_constraintEnd_toEndOf="@+id/BTNcontact"
+        app:layout_constraintStart_toEndOf="@+id/BTNcontact" />
 
     <TextView
         android:id="@+id/BTNcontact"
@@ -62,9 +61,9 @@
         android:id="@+id/imagEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginBottom="272dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="199dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@android:drawable/ic_dialog_email" />
@@ -73,7 +72,7 @@
         android:id="@+id/imagPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="19dp"
         app:layout_constraintStart_toStartOf="@+id/imagEmail"
         app:layout_constraintTop_toBottomOf="@+id/imagEmail"
         app:srcCompat="@android:drawable/ic_menu_call" />
@@ -82,61 +81,49 @@
         android:id="@+id/EDTtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="7dp"
         android:gravity="center_horizontal"
         android:text="Meet Phyllis Keino as the Manager of Trent farm"
         android:textAlignment="center"
         android:textColor="#FF5722"
         android:textSize="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/mTitle"
+        app:layout_constraintStart_toStartOf="@+id/mTitle"
         app:layout_constraintTop_toBottomOf="@+id/mTitle" />
 
     <ImageButton
         android:id="@+id/imagsms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginBottom="22dp"
-        app:layout_constraintBottom_toTopOf="@+id/imagwatsapp"
-        app:layout_constraintStart_toStartOf="@+id/imagwatsapp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toStartOf="@+id/imagPhone"
+        app:layout_constraintTop_toBottomOf="@+id/imagPhone"
         app:srcCompat="@android:drawable/ic_menu_send" />
 
-    <ImageButton
-        android:id="@+id/imagwatsapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="47dp"
-        android:layout_marginLeft="47dp"
-        android:layout_marginBottom="46dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/sym_action_chat" />
-
     <TextView
-        android:textSize="20dp"
-        android:textColor="#AC031D"
         android:id="@+id/BTNsms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="8dp"
         android:text="Send SMS"
+        android:textColor="#AC031D"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imagsms"
-        app:layout_constraintStart_toStartOf="@+id/BTNwatsapp" />
+        app:layout_constraintStart_toEndOf="@+id/imagsms" />
 
     <TextView
-        android:textSize="20dp"
-        android:textColor="#AC031D"
-        android:id="@+id/BTNwatsapp"
+        android:textStyle="bold"
+        android:id="@+id/mtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="59dp"
-        android:text="Contact via watsApp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="Select your option by clicking the icon"
+        app:layout_constraintBottom_toTopOf="@+id/imagEmail"
+        app:layout_constraintStart_toEndOf="@+id/imagEmail" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

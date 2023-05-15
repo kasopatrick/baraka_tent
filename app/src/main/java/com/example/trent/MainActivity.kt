@@ -5,7 +5,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         dimage_2 = findViewById(R.id.Image_2)
 
         btStart.setOnClickListener {
-            var tembea = Intent(this,Users::class.java)
+            var tembea = Intent(this,UsersActivity::class.java)
             startActivity(tembea)
         }
 

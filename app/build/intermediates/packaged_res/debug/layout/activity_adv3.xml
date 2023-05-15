@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Adv_3">
+    tools:context=".Adv_3Activity">
 
     <ImageView
         android:layout_marginLeft="110dp"
@@ -18,6 +18,7 @@
         tools:layout_editor_absoluteY="42dp" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_marginTop="4px"
         android:textAlignment="center"
         android:textSize="20dp"
@@ -26,4 +27,12 @@
         android:layout_height="wrap_content"
         android:text="Qualities of a good farmer"
         android:gravity="center_horizontal" />
-</LinearLayout>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:id="@+id/qualities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dairy_farmers_have_excelent_cow_sense_they_have_a_unique_ability_to_spot_a_sick_cow_before_she_gets_too_sick_they_can_observe_the_cow_in_astrus_just_by_their_behaviour_on_large_farms_owners_and_managers_realize_that_they_neeed_to_hire_and_train_poeple_to_develop_this_skills_linearlayout For any other advice you need please contact the manager"/>
+    </LinearLayout>

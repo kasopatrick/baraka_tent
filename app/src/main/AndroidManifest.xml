@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -15,22 +18,28 @@
         android:theme="@style/Theme.Trent"
         tools:targetApi="31">
         <activity
-            android:name=".Adv_5"
+            android:name=".SuppliesActivity2"
             android:exported="false" />
         <activity
-            android:name=".Adv_4"
+            android:name=".Supplies2Activity"
             android:exported="false" />
         <activity
-            android:name=".Adv_3"
+            android:name=".AddsuppliesActivity"
             android:exported="false" />
         <activity
-            android:name=".Adv_2"
+            android:name=".Adv_4Activity"
             android:exported="false" />
         <activity
-            android:name=".Adv_1"
+            android:name=".Adv_3Activity"
             android:exported="false" />
         <activity
-            android:name=".supplies"
+            android:name=".Adv_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Adv_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".suppliesActivity"
             android:exported="false" />
         <activity
             android:name=".firebase"
@@ -42,10 +51,10 @@
             android:name=".Phone"
             android:exported="false" />
         <activity
-            android:name=".Contact"
+            android:name=".ContactActivity"
             android:exported="false" />
         <activity
-            android:name=".Users"
+            android:name=".UsersActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

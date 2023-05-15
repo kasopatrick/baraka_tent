@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_advicem.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_advicem.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_supplies.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_supplies.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_addsupplies.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_addsupplies.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_supplies2.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_supplies2.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_adv3.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_adv3.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_users2.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_users2.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_adv4.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_adv4.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_contact.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_adv1.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_adv1.xml"
+    },
+    {
+        "merged": "com.example.trent.app-mergeDebugResources-32:/layout/activity_adv2.xml",
+        "source": "com.example.trent.app-main-35:/layout/activity_adv2.xml"
+    }
+]

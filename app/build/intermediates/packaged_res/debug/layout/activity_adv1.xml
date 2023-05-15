@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Adv_1">
+    tools:context=".Adv_1Activity">
 
 
     <ImageView
@@ -18,6 +18,7 @@
         android:layout_weight="1"
         app:srcCompat="@drawable/fressian" />
     <TextView
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="15dp"
         android:text="Requirements on how to start a dairy farm"
@@ -25,5 +26,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/adptitle"
         android:gravity="center_horizontal" />
+
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/requirements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:text="Before you start a dairy farm you shold cosider some few steps in oreder to have a good start.one, you should consider on finding a proper shed constuction that the dairy animals may stay.Two, you should ensure that there is adequate water supply to the farm in oder to ensure every department is wello fsupplied with water.Either. you shuold consider better breed of cows that are good for dairy production,e.g fressians.tou should also consider the labour that is supposed to be used in the farm and also the cost of running the farm, this will make sure that the farmer is well organised and ensure that the farm is running efficiently.Lasty, you should consider on the clinliness of the environment around the farm in order to minimise diseases that may cause harm to the dairy animals.For more conultation please contact the manager" />
 
 </LinearLayout>

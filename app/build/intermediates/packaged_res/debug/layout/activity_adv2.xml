@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Adv_2">
+    tools:context=".Adv_2Activity">
 
 
     <ImageView
@@ -17,6 +17,7 @@
         app:srcCompat="@drawable/fressian" />
 
     <TextView
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="20dp"
         android:id="@+id/txt_2_2"
@@ -24,4 +25,14 @@
         android:layout_height="wrap_content"
         android:text="Problems facing dairy farming"
         android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:id="@+id/problems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The main problems facing dairy farming are ussually land_related, this are like loss of valuable land and erosion.pests and diseases ,climate change, and even insecurity within the farm.We can advice you to check on weather forecast to determine the trends and be rady to take the next move concerning dairy farming.You can also buy drugs that can controll pessts and diseases that may affect the cows, this can gretly minimise pest and diseases attacks.Another advice is to check on the security matters concernig dairy farming ,ensure the security is tight and well taken care of.Lastly we can advice you to take maximum precaution when dealing with this kind of farming since the products must be of high quality and quantity For any other advice you need please contact the manager" />
 </LinearLayout>
